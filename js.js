@@ -70,6 +70,7 @@ function createCart() {
 //     cartItems[j].innerHTML = itemArr[k].innerHTML;
 //   }
 // }
+// sorry shaktiman!
 function transferToCArt() {
   for (let j = 0; j < btn.length; j++) {
     let k = j;
