@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./js.css" />
+  </head>
+  <body>
+    <!-- navBar -->
+    <nav class="nav">
+      <div class="company-logo">
+        <a href="">
+          <h1>ShopP. <sub>stop</sub></h1></a
+        >
+      </div>
+
+      <div class="search-container">
+        <span class="search-txt">Search :</span>
+        <input
+          type="search"
+          placeholder="serach products here"
+          name=""
+          id="nav-search"
+        />
+      </div>
+      <div class="nav-link-container">
+        <a class="link nav-link" href="./signIn.html">your Account</a>
+        <a class="link nav-link" href="">your Address</a>
+        <a class="link nav-link" href="">upcoming Sale</a>
+      </div>
+    </nav>
+    <div>
+      <div id="container">
+        <!-- items -->
+
+        <div class="item-container">
+          <img class="item-image" src="./img/gramWithoutSkin.jpg" alt="" />
+          <h2>Skinless gram (best quality)</h2>
+          <h4>Quantity : 1Kg</h4>
+          <h4>Price : Rs.120</h4>
+          <button class="btn" onclick="selector()">Add to Cart</button>
+        </div>
+
+        <div class="item-container">
+          <img class="item-image" src="./img/iodex.jpg" alt="" />
+          <h2>Iodex</h2>
+          <h4>Quantity : 50g</h4>
+          <h4>Price : Rs.80</h4>
+          <button class="btn" onclick="selector()">Add to Cart</button>
+        </div>
+
+        <div class="item-container">
+          <img class="item-image" src="./img/facewash.jpg" alt="" />
+          <h2>Aloe Facewash</h2>
+          <h4>Quantity : 100ml</h4>
+          <h4>Price : Rs.120</h4>
+          <button class="btn" onclick="selector()">Add to Cart</button>
+        </div>
+
+        <div class="item-container">
+          <img class="item-image" src="./img/bodywash.jpg" alt="" />
+          <h2>Body wash for all</h2>
+          <h4>Quantity : 220ml</h4>
+          <h4>Price : Rs.220</h4>
+          <button class="btn" onclick="selector()">Add to Cart</button>
+        </div>
+
+        <div class="item-container">
+          <img class="item-image" src="./img/boatTws.webp" alt="" />
+          <h2>boat tws</h2>
+          <h4>Quantity : 1</h4>
+          <h4>Price : Rs.1200</h4>
+          <button class="btn" onclick="selector()">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- cart -->
+      <div id="cart-container"></div>
+    </div>
+    <script src="./js.js"></script>
+  </body>
+</html>

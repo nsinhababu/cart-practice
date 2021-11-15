@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Open+Sans+Condensed:wght@300&display=swap');
+body {
+  padding: 0 0px;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+/* navBar */
+.nav {
+  margin: 0 auto;
+  z-index: 5;
+  height: 80px;
+  width: 1600px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.459);
+}
+
+/* nav-items */
+/* logo */
+.company-logo {
+  width: 240px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(0, 128, 0, 0.082);
+  padding: 4px 3px;
+}
+.company-logo h1 {
+  margin: 0;
+  color: rgb(70, 131, 180);
+  font-family: 'Grechen Fuemen', cursive;
+  font-size: 35px;
+}
+.company-logo a {
+  text-decoration: none;
+}
+
+/* search */
+.search-container {
+  width: 420px;
+  color: cadetblue;
+  display: flex;
+  align-items: center;
+}
+#nav-search {
+  width: 340px;
+  height: 30px;
+  border: none;
+  padding: 0 7px;
+  background-color: rgba(95, 158, 160, 0.164);
+  margin-left: 5px;
+  border-radius: 8px;
+}
+.search-txt {
+  font-size: 20px;
+}
+
+/* nav-links */
+
+.nav-link-container {
+  width: 700px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  font-size: 1.16rem;
+  text-decoration: none;
+}
+.nav-link {
+  color: cornflowerblue;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.nav-link:hover {
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.596);
+  transition: 0.3s;
+  background-color: white;
+}
+
+/* item container */
+#container {
+  border-left: 1px solid rgba(211, 211, 211, 0.466);
+  position: relative;
+  top: 130px;
+  /* height: 1500px; */
+  width: 1200px;
+  display: flex;
+  padding-left: 15px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* items */
+.item-container {
+  display: inline-block;
+  width: 245px;
+  height: 285px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  box-shadow: 0 0 3px gray;
+  margin: 5px;
+}
+.item-image {
+  width: 230px;
+  height: 180px;
+  border-radius: 4px;
+  /* margin-left: 8px; */
+}
+/* .item-description-container h2, */
+h2 {
+  margin: 5px;
+}
+h4 {
+  display: inline-block;
+  margin: 5px;
+}
+.btn {
+  font-size: 16px;
+  padding: 5px 8px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+/* cart */
+#cart-container {
+  width: 330px;
+  height: 800px;
+  border-left: 1px solid rgba(211, 211, 211, 0.466);
+  overflow: scroll;
+  position: fixed;
+  right: 95px;
+  top: 100px;
+  font-size: 1rem;
+}
+#cart-container div img {
+  width: 60px;
+  height: 40px;
+}

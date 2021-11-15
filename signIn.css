@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+body {
+  font-size: 1.15rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.to-home {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 1.5rem;
+  margin-right: 250px;
+}
+h1 {
+  margin: 0 0 0 200px;
+  color: rgba(70, 131, 180, 0.767);
+  font-family: inherit;
+  font-size: 2.5rem;
+}
+.signin-container {
+  margin-left: 150px;
+}
+.info,
+.address {
+  height: 400px;
+  width: 950px;
+  margin: 0 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-left: 25px;
+  color: cornflowerblue;
+}
+h3 {
+  color: green;
+}
+.info div,
+.address div {
+  width: 1000px;
+  display: flex;
+  justify-content: f;
+}
+.info div input,
+.address div input {
+  width: 500px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: auto;
+  position: relative;
+  right: 60px;
+}
+#form {
+  text-align: center;
+  width: 1000px;
+  margin-right: auto;
+  background-color: rgba(211, 211, 211, 0.397);
+  border-radius: 10px;
+  padding: 20px 0;
+}
+#submit,
+#reset {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  color: white;
+  border: 2px solid white;
+}
+#submit {
+  background-color: rgba(0, 128, 0, 0.651);
+}
+#reset {
+  background-color: rgba(255, 0, 0, 0.582);
+}
+.error-span,
+#error-span {
+  border: 1px solid black;
+  width: 200px;
+  position: relative;
+  right: 60px;
+  color: red;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signIn</title>
+    <link rel="stylesheet" href="./signIn.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Create Account</h1>
+      <a class="to-home" href="./js.html">Home </a>
+    </nav>
+    <hr />
+
+    <div class="signin-container">
+      <form id="form" action="./myprofile.html" method="get">
+        <div class="info">
+          <div>
+            Name :
+            <input
+              value=""
+              type="text"
+              name="name"
+              id="name"
+              class="input"
+              placeholder="put your full name here"
+              required
+            />
+            <span id="error-span"></span>
+          </div>
+          <div>
+            D.O.B : required required
+            <input type="date" name="dateOfBirth" id="date-of-birth" value="" />
+            <span class="error-span"></span>
+          </div>
+          <div>
+            User Name :
+            <input
+              type="text"
+              name="userName"
+              id="user-name"
+              placeholder="must be unique"
+            />
+            <span class="error-span"></span>
+          </div>
+          <div>
+            Password :
+            <input name="yourPassword" type="password" id="password" />
+            <span class="error-span"></span>
+          </div>
+          <div>
+            Confirm Password :
+            <input name="yourPassword" type="password" id="confirm-password" />
+            <span class="error-span"></span>
+          </div>
+        </div>
+
+        <div class="address">
+          <h3>Address</h3>
+
+          <div>Line 1 : <input id="line1" type="text" /></div>
+          <div>Line 2 : <input id="line2" type="text" /></div>
+          <div>Landmark : <input id="landmark" type="text" /></div>
+          <div>Pin : <input id="pin" type="number" /></div>
+        </div>
+        <input id="submit" type="submit" value="Submit" />
+        <input id="reset" type="reset" value="Reset" />
+      </form>
+    </div>
+
+    <script src="./signIn.js"></script>
+  </body>
+</html>
